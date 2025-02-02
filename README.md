@@ -1,1 +1,10 @@
-# portfolio
+## Self Introduction
+Hello! I am Jayden Soh, a Year 5 student studying in VJC. 👋
+
+My <ins> passion for engineering started when I was young </ins>, when my father bought an electronics kit for beginners, consisting of a simple Arduino Uno, with basic components such as LEDs 🚨, LCDs & Buttons 🔘. I had just moved to Switzerland then (as my father got a job there), where the <ins>IB curriculum had given me space & time to explore more into that area.</ins> One of my first projects was a very simple door alarm system 🔔, where I had used a button, chopsticks and string to detect the opening of a door! Then, as I gained more experience, <ins>I learnt how to code- in C++ & Python</ins>, which unlocked an entire realm of new possibilities. 
+
+**In Secondary School** (back in Singapore), <ins>I also started to explore leadership</ins>, where I served as a class monitor, peer support leader and on the Prefects' Council Executive Comittee. But outside of all that, the thing I still enjoyed the most was engineering 🛠️. During the holidays (when I had the motivation), I would restart my personal projects- to draw ✏️, tinker 🔨, build and code 💻. Most of my projects started from my imagination, for example- <ins>my companion robot CT-02</ins>, where I really really wanted to recreate Jarvis. (obviously didnt work to that extent), while some are for school competitions, for example- the <ins>Modular Fogponics Greenhouse</ins>. Some of the projects which I worked the hardest on were for school assignments, such as the RC cardboard mariokart. 🚗
+
+But now that I am older, I realise the importance of fueling and keeping this passion, as it will be a great asset for my future. I do not want to lose these skills, and I recognise that the priorities that I set in my JC life will play a crucial role in the development of my engineering passion. 
+
+**Hence, my reason for applying for the Computing course in VJC** is to further develop my skills in this area, be it coding, building or designing, and to <ins>further give me the space & time to grow this passion</ins>.
