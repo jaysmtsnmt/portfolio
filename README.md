@@ -10,16 +10,42 @@ But now that I am older, I realise the importance of fueling and keeping this pa
 **Hence, my reason for applying for the Computing course in VJC** is to further develop my skills in this area, be it coding, building or designing, and to <ins>further give me the space & time to grow this passion</ins>.
 
 # Overview of my Projects
+Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials. 
+
+## Projects showcasing mostly computing & logic:  
+[CT-02](https://github.com/jaysmtsnmt/portfolio/edit/main/README.md#ct-02) #Python #C++  
+
+- A companion robot that uses 2D/3D word vectors for natural language processing, as well as opencv & serial modules for face tracking.
+
+[The Unfortunate Tales of Edwun Lim](https://github.com/jaysmtsnmt/portfolio/edit/main/README.md#the-unfortunate-tales-of-edwun-lim) #Scratch #Pixel Art 
+
+
 # CT-02
+
+<details>
+<summary>Picture of CT-02 Version 1 (2022 when I got COVID)</summary>
+   
+![IMG_0376](https://github.com/user-attachments/assets/8c439e66-e964-4118-ad81-bbdc461614d2)
+</details>
+
+
 CT-02 was inspired by all the Star Wars robots & Jarvis from Iron Man. I wanted to create a robot that could 
 1. See it's surroundings
 2. Be able to understand speech
 3. Be able to help my complete daily tasks, such as music controls, alarm setting, calendar setting etc.
 4. Be cute
 
+All of CT-02's code was completely from scratch, and the first version was made when I got COVID and was stuck at home. 
+
+Here is a video of CT-02 working, showcasing NLP. 2024 (before face tracking was added) (turn up volume to listen!)
+
 https://github.com/user-attachments/assets/bb454fc6-ccc2-4bae-b8e0-1e1d8d3f98ca
 
-CT is coded in two languages, C++ & Python. C++ is used for the hardware side, where it is ran completely on the Arduino Mega, while Python is used for the software & processing side. I have worked on this project on & off since 2022, so I cannot remember how some functions work exactly. 
+Here is a video of CT-02 working, showcasing its face tracking ability. 2024
+
+https://github.com/user-attachments/assets/80b3a136-325e-4948-987f-fc61c2dce9e8
+
+CT is coded in **two languages**, C++ & Python. **C++ is used for the hardware side**, where it is ran completely on the **Arduino Mega**, while **Python is used for the software & processing side**. I have worked on this project on & off since 2022, so I cannot remember how some functions work exactly. 
 
 ## Python & Processing
 Python is responsible for the following functions:
@@ -28,6 +54,8 @@ Python is responsible for the following functions:
 3. **Speech detection & isolation** (Whisper, pvporcupine, pydub, wave, pyaudio ++) 
 4. **Natural Language Processing & Further Action** (2D Vectors)
 5. Action Modules (eg. Spotify, Timers etc..)
+
+A full github repo can be found here: https://github.com/jaysmtsnmt/Python/tree/main/The%20CT%20Project/Modules
 
 <details>
 <summary>Natural Language Processing</summary>
@@ -829,7 +857,7 @@ def getPlaylist():
 
 ## C++/Hardware
 The most important segment of the C++ code is to recieve serial commands via USB, understand those serial commands, and execute the actions accordingly, physically changing the state of the robot. The robot a few "body parts"
-1. Eyes (Left Blue, Right Blue, Left Red, Right Red)
+1. Eyes (Left Blue, Right Blue, Left Red, Right Red) (Red for when CT has nightmares)
 2. Heart
 3. Neck (Servo)
 4. Camera (actual webcam)
@@ -1038,3 +1066,6 @@ void blink(int x = blinktime, int b = brightness){ //Pass x as mils closed / Bli
 }
 ```
 </details>
+
+# The Unfortunate Tales of Edwun Lim
+
