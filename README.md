@@ -12,25 +12,36 @@ But now that I am older, I realise the importance of fueling and keeping this pa
 # Overview of my Projects
 Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials. 
 
-### Computing & Logic Projects
-[CT-02](#ct-02) #Python #C++  
+## Computing & Logic Projects
+[CT-02 Companion Robot | 2022 - Current](#ct-02) #Python #C++  
 
 - A companion robot that uses 2D/3D word vectors for natural language processing, as well as opencv & serial modules for face tracking.
 - Project started in late 2022
 
-[DSTA Young Defense Scientists Programme Submission](#dsta-ydsp-camp-submission) #Python #Drone
+[Autonomous Drone Maze Navigation Code | DSTA YDSP Camp Submission 2023](#dsta-ydsp-camp-submission) #Python #Drone
 
 - Best Obstacle Avoidance Award
 - Only one of two teams that were able to navigate out of the maze. (VS & VJC)
 - Competition code completetly written from scratch.
 
-[The Unfortunate Tales of Edwun Lim](#the-unfortunate-tales-of-edwun-lim) #Scratch #Pixel Art 
+[The Unfortunate Tales of Edwun Lim | Chemistry GA Submission 2024](#the-unfortunate-tales-of-edwun-lim) #Scratch #Pixel Art 
 
 - A scratch-based escape room game complete with playable rooms, functioning UI, 2D top-down movement & custom game items.
 - Over 50+ hours of time taken to develop
 - Submitted for my Y4 Chemistry GA
 
-### Engineering & Design Projects
+## Engineering & Design Projects
+[Modular Fogponics Greenhouse | MakeIT Submission 2020]() #Design #3D Printing #Lasercutting #Electronics
+
+[Scale Cardboard RC Mariokart | English GA Submission 2023]() #Mechanical Engineering #Cardboard #R.C.
+
+[RC Planes | Switzerland 2017 - 2020]() #Mechanical Engineering #Foamboard #R.C.
+
+[Lightweight RC Plane | SAFMC Submission 2023]() #Mechanical Engineering #R.C.
+
+[Robotic Arm | Switzerland 2019]() #Mechanical Engineering #C++ 
+
+[Mechanical Keyboards | Singapore 2023]() #Design
 
 # CT-02
 
@@ -49,11 +60,11 @@ CT-02 was inspired by all the Star Wars robots & Jarvis from Iron Man. I wanted 
 
 All of CT-02's code was completely from scratch, and the first version was made when I got COVID and was stuck at home. 
 
-Here is a video of CT-02 working, showcasing NLP. 2024 (before face tracking was added) (turn up volume to listen!)
+**Here is a video of CT-02 working, showcasing NLP. 2024 (before face tracking was added) (turn up volume to listen!)**
 
 https://github.com/user-attachments/assets/bb454fc6-ccc2-4bae-b8e0-1e1d8d3f98ca
 
-Here is a video of CT-02 working, showcasing its face tracking ability. 2024
+**Here is a video of CT-02 working, showcasing its face tracking ability. 2024**
 
 https://github.com/user-attachments/assets/80b3a136-325e-4948-987f-fc61c2dce9e8
 
@@ -71,7 +82,8 @@ A full github repo can be found here: https://github.com/jaysmtsnmt/Python/tree/
 
 <details>
 <summary>Natural Language Processing</summary>
-   
+
+## Natural Language Processing
 CT-02 understands instructions through the use of word vectors. Similar to sentiment analysis (which I visualise as 1D word vectors), I thought that I could tokenise sentences, and analyse how many times each word is repeated in a given number of sentences, for a specific category of instructions.  
   
 My robot has a few categories of instructions it can recieve:  
@@ -282,6 +294,9 @@ ______________________________________________
 
 <details>
 <summary>Speech Detection & Isolation</summary>
+
+## Speech Detection & Isolation
+   
 CT-02 can be woken by saying "Hey CT" or "Yo CT", and this is achieved through the PvPorcupine library, as well as threading. 
 
 ```Python
@@ -453,6 +468,9 @@ _____________
 
 <details>
 <summary>Face Tracking</summary>
+
+## Face Tracking
+   
 There are two main parts of face tracking that I learnt through trial and error. 
   
 1. Face detection  
@@ -537,6 +555,9 @@ ________________________________________________________________________________
 
 <details>
   <summary>Spotify Integration</summary>
+
+## Spotify Integration
+   
 CT-02 is able to control my Spotify Playback using the spotipy library. It is also able to search up and play songs, switch devices etc, which are all features that the orignal spotipy library does not provide. 
   
 ```Python
@@ -876,6 +897,8 @@ The most important segment of the C++ code is to recieve serial commands via USB
 
 I wanted the robot to have a very natural design, so its main body only comprises of one square (head), and a rectangle (body). It's eyes are made out of hotglue (I made a baking paper mold) and has LEDs mounted into it. The blinking of the eyes can be seen as the LEDs blink, but I made it more natural by giving each LED a slight delay from each other. (so it actually looks like it is blinking!) 
 
+A Full Github Repo can be found here: https://github.com/jaysmtsnmt/CT-02  
+
 Here is an early version of CT-02 being awakened by a button press: 
 
 https://github.com/user-attachments/assets/477ec8dc-caa5-402b-8769-e1b38a0be822  
@@ -884,6 +907,8 @@ The main file comprises of functions which determine how the robot behaves in sl
 
 <details>
   <summary>Python-C++ Serial Communication</summary>  
+
+  ## Python-C++ Serial Communication
 
 ### Commands are sent from Python in this form using the Serial Library.  
   
@@ -914,6 +939,9 @@ void tokenise(char data[], char *array[MAX_ARRAYSTORE]){ //Tokenise data into ch
 
 <details>
 <summary>Servo/Neck</summary>
+
+## Servo Neck
+   
 When you write a specific angle to the servo, it immediately snaps to that angle, making it very unnatural. Hence, by using a delay system, you can make movements smoother and more fluid! 
 
   ```C++
@@ -974,6 +1002,9 @@ int swrite(int asa, int angle, int servodelay){
 
 <details>
 <summary>Heart Beat</summary>
+
+## Heart Beat
+   
 A very standard and simple heart beat - emulated using a tiny vibration motor. 
 
   ```C++
@@ -994,6 +1025,9 @@ void beat(int s = strength, int p = period){
 
 <details>
 <summary>Eyes</summary>
+
+## Eyes
+   
 CT-02 has two types of blinks - a single blink & a double blink. Random delays with predetermined offsets allow the blinking to look much more natural. 
 
 ```C++
@@ -1080,13 +1114,353 @@ void blink(int x = blinktime, int b = brightness){ //Pass x as mils closed / Bli
 </details>
 
 # DSTA YDSP Camp Submission
-The task of the YDSP Camp competition was to program a Tello Drone that could sucessfully map & autonomously navigate an unknown 5 by 5 maze. 
+The task of the YDSP Camp competition was to program a Tello Drone that could sucessfully map & autonomously navigate an unknown 5 by 5 maze. Using the matplotlib library that was taught to us, we had successfully mapped a correct route through the maze. 
 
-This code had a few features that allowed us to win:
-1. Obstacle Avoidance & Repositioning
-2. Print statements that allowed me to monitor the drone without looking at it
-3. North Priority (Always prioritise going towards the direction of the exit)
+This is a picture of our team getting the award for Best Obstacle Avoidance. 
+  
 ![20231201-243](https://github.com/user-attachments/assets/483d4ef1-4db4-4517-a4da-880e0edc322d)
+
+More videos & pictures are available in the minimized sections below. 
+
+This code had a few distinct features that allowed us to win:
+
+<details>
+   <summary>Obstacle Avoidance & Repositioning</summary>
+   
+## Obstacle Avoidance & Repositioning
+
+Through trial and error, we realised that a **major failure point** of the drone was its inaccuracy in its movement. Even though it was programmed to move a set distance, there was a lot of drift that caused crashes. Hence, we decided to add code to automatically align the drone to the centre of the mat, if it was too close to a wall. **This is one of the videos showcasing our alignment code during the competition.  **  
+  
+https://github.com/user-attachments/assets/a06c731d-330c-4349-82e0-64e05064868d
+
+The **align()** function allowed me to align the drone as soon as it takes off, then start the main loop. 
+```Python
+def align():
+    sensorvalue = getTOF()
+    if sensorvalue > distancefromwall:
+        print("[ALIGN] No wall detected in front, can't align!")
+    
+    else:
+        print("[ALIGN] Aligning with front wall...")
+        t.send_rc_control(0, horizontalAligningSpeed, 0, 0)
+        time.sleep(2)
+        stopMovement()
+```
+  
+For the drone to navigate, it must know if there is a wall in front, at the side, or behind, so that it can determine it's next action. However, **we decided to program an alignment code directly into it**. This had saved our group in the competition, allowing us to get second place. 
+
+```Python
+def getWalls():
+    leftwall = False
+    rightwall = False
+    frontwall = False
+    returndata = [frontwall, leftwall, rightwall]
+    
+    frontvalue = getTOF()
+    time.sleep(sensortime)
+    if frontvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+    
+    yawLeft90()
+    time.sleep(rottime)
+    leftvalue = getTOF()
+    time.sleep(sensortime)
+    if leftvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+        
+    yawRight90()
+    time.sleep(0.1)
+    yawRight90() 
+    time.sleep(rottime)
+    rightvalue = getTOF()
+    if rightvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+        
+    #print(f"{frontvalue}, {leftvalue}, {rightvalue}")
+    
+    time.sleep(1)
+    yawLeft90()
+    
+    #print(orientation)
+    
+    if frontvalue < distancefromwall:
+        print("[WALL] Front Wall Detected")
+        frontwall = True
+        returndata[0] = frontwall
+    
+    if leftvalue < distancefromwall:
+        print("[WALL] Left Wall Detected")
+        leftwall = True
+        returndata[1] = leftwall
+        
+    if rightvalue < distancefromwall:
+        print("[WALL] Right Wall Detected")
+        rightwall = True     
+        returndata[2] = rightwall
+    
+    print(f"[WALL] Data: {returndata}")
+    return returndata     
+
+```
+_______________________
+</details>
+
+<details>
+   <summary>North Priority</summary>
+
+   ## North Priority
+   This part of the code had prevented us from going into a deadend. All other functioning teams except VJC & Victoria School (us) had went into the deadend and depleted their battery life. This video shows the deadend in question:
+
+https://github.com/user-attachments/assets/daa60dcc-3ed4-4c6b-896f-94e589a47931
+
+This is only a part of the code (as there are just many logic statements) 
+
+   ```Python
+if walls[0] == True and walls[1] == True and walls[2] == True: #If there is a front, left, and right wall, it is a deadend
+    deadEnd = True
+
+elif walls[0] == False: #else if there is no front wall and going forward results in a N orientation
+    if getNextOrientation("f") == "N":
+        print("[NAVI] Moving Forward")
+        action = "f"
+        t.move_forward(moveDistance)
+        updatePadID() 
+        actionCompleted = True
+    
+    else: #Check for alternative actions
+        #Check if any other actions are going N
+        if (walls[1] == False and getNextOrientation("l") == "N"): #if no left walls and left turn = N
+            print("[NAVI] Moving Left instead of Forward")
+            action = "l"
+            yawLeft90()
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True
+
+        elif (walls[2] == False and getNextOrientation("r") == "N"): #if no right walls and right turn = N
+            print("[NAVI] Moving Right instead of Forward")
+            action = "r"
+            yawRight90()
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True
+        
+        #Check if any other actions are NOT N
+        elif walls[0] == False and getNextOrientation("f") != "S":
+            print("[NAVI] Moving Forward")
+            action = "f"
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True
+        
+        elif walls[1] == False and getNextOrientation("l") != "S": #if no left walls and left turn != S
+            print("[NAVI] Moving Left instead of Forward")
+            action = "l"
+            yawLeft90()
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True
+            
+        elif walls[2] == False and getNextOrientation("r") != "S": #if no right walls and right turn != S
+            print("[NAVI] Moving Right instead of Forward")
+            action = "r"
+            yawRight90()
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True   
+            
+        else:
+            print(Fore.RESET + Fore.RED + "[NAVI] Unintentional, watch out! Moving Forward" + Fore.RESET)
+            action = "f"
+            t.move_forward(moveDistance)
+            updatePadID()
+            actionCompleted = True
+```
+_______________________
+</details>
+
+<details>
+   <summary>Print Statements & Organised Code</summary>
+
+## Print Statements & Organised Code
+   
+I had decided to split different sections of the code into functions, so that it was more organised & readable, allowing me to easily call them in the main function. 
+
+![image](https://github.com/user-attachments/assets/f04050b2-5b3a-494a-805b-7d8ab2119c49)
+
+I also put in many print statements that allowed us to easily debug the code, as well as monitor the drone's progress without having to actually look at it! This photo shows us monitoring the status of the drone on the laptop during the competition.  
+  
+![20231201-041](https://github.com/user-attachments/assets/14dbe3cb-00af-4e12-ac19-58da292b57f0)
+  
+This part of the code shows some print statements that gave us an idea of what the drone was doing.   
+
+```Python
+                    else: #Find other alternatives
+                        if (walls[2] == False and getNextOrientation("r") == "N"): #if there is no right wall and turning right will result in a N direction
+                            action = 'r'
+                            print("[NAVI] Moving Right instead of Left")
+                            yawRight90()
+                            t.move_forward(moveDistance)
+                            updatePadID()
+                            actionCompleted = True
+                            
+                        elif (walls[1] == False and getNextOrientation("l") != "S"): #If turning left will result in a non S direction
+                            action = "l"
+                            print("[NAVI] Moving Left")
+                            yawLeft90()
+                            t.move_forward(moveDistance)
+                            updatePadID()
+                            actionCompleted = True
+                            
+                        elif (walls[2] == False and getNextOrientation("r") != "S"):#If turning right will result in a non S direction
+                            action = 'r'
+                            print("[NAVI] Moving Right instead of Left")
+                            yawRight90()
+                            t.move_forward(moveDistance)
+                            updatePadID()
+                            actionCompleted = True
+                            
+                        else: #No choice but to move left
+                            action = "l"
+                            print(Fore.RESET + Fore.RED + "[NAVI] Unintentional! Be Careful! Moving Left")
+                            yawLeft90()
+                            t.move_forward(moveDistance)
+                            updatePadID()
+                            actionCompleted = True
+                                
+                else: #If there is no front wall and left wall...
+                    if walls[2] == False:
+                        print("[NAVI] Moving Right")
+                        action = "r"
+                        yawRight90()
+                        t.move_forward(moveDistance)
+                        updatePadID()
+```
+
+This part of the code shows the print statements that update us about the obstacles/walls around the drone.
+  
+```Python
+def align():
+    sensorvalue = getTOF()
+    if sensorvalue > distancefromwall:
+        print("[ALIGN] No wall detected in front, can't align!")
+    
+    else:
+        print("[ALIGN] Aligning with front wall...")
+        t.send_rc_control(0, horizontalAligningSpeed, 0, 0)
+        time.sleep(2)
+        stopMovement()
+
+def getWalls():
+    leftwall = False
+    rightwall = False
+    frontwall = False
+    returndata = [frontwall, leftwall, rightwall]
+    
+    frontvalue = getTOF()
+    time.sleep(sensortime)
+    if frontvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+    
+    yawLeft90()
+    time.sleep(rottime)
+    leftvalue = getTOF()
+    time.sleep(sensortime)
+    if leftvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+        
+    yawRight90()
+    time.sleep(0.1)
+    yawRight90() 
+    time.sleep(rottime)
+    rightvalue = getTOF()
+    if rightvalue < tooClose:
+        print("[ADJ] Too Close, Moving Back...")
+        t.move_back(20)
+        time.sleep(aligningTime)
+        
+    #print(f"{frontvalue}, {leftvalue}, {rightvalue}")
+    
+    time.sleep(1)
+    yawLeft90()
+    
+    #print(orientation)
+    
+    if frontvalue < distancefromwall:
+        print("[WALL] Front Wall Detected")
+        frontwall = True
+        returndata[0] = frontwall
+    
+    if leftvalue < distancefromwall:
+        print("[WALL] Left Wall Detected")
+        leftwall = True
+        returndata[1] = leftwall
+        
+    if rightvalue < distancefromwall:
+        print("[WALL] Right Wall Detected")
+        rightwall = True     
+        returndata[2] = rightwall
+    
+    print(f"[WALL] Data: {returndata}")
+    return returndata     
+```
+_______________________
+</details>
+
+The full GitHub Archive is available here: https://github.com/jaysmtsnmt/DSTA-YDSP/tree/main/Phase%201 
+
+# Modular Fogponics Greenhouse
+Designed & submitted for the 2022 MakeIT Design Competition, winning the communication award. I had made this to align with the 30 by 30 Singapore Food Goals, to help increase self-sustainability in Singapore.  
+  
+This modular greenhouse works using Fogponics, which uses an ultrasonic transducer to create water vapour containing nutrients, which water the plants in the greenhouse! This saves a lot more water, and the supply of nutrients can be easily controlled using a microcontroller (arduino).  
+
+![a97ce2a9-e9e5-46d1-ac44-b38ad78fde42](https://github.com/user-attachments/assets/d63061a2-9474-4e42-af09-a0e9ef371715)
+
+The body of the greenhouse is 0.5 thickness acrylic, while the pots were made out of both acrylic & plastic (3D printed)
+
+## The Design Process - Design on CAD software
+With a vision in mind, I designed the entire greenhouse on tinkercad.  
+
+<details>
+<summary>1st Version</summary>
+   
+   ![Mini greenhouse edit 2 Annotation](https://github.com/user-attachments/assets/238dfef8-4267-4faa-9483-588912ea8626)
+   
+</details>
+<details>
+   <summary>2nd & Final Version</summary>
+   
+![Fogponics 3D Model (0 5 cm thickness) (1)](https://github.com/user-attachments/assets/315e6c1f-a256-49ab-b6ba-910399e59874)
+   
+![Exploded Fogponics (1)](https://github.com/user-attachments/assets/4f59e198-d4b8-4408-a1ea-2c3583d0ef13)
+
+</details>
+
+## The Design Process - Working with Physical Materials
+![image](https://github.com/user-attachments/assets/f2526bdb-bb10-4a4c-aff2-3de091ea93e0)
+![image](https://github.com/user-attachments/assets/c3df55b5-c87c-4a0b-b921-ad43b5a8d2a5)
+
+## The Design Process - Testing
+In this picture, my laptop was connected to an Arduino Uno, which controlled the ultrasonic transducer module. 
+![image](https://github.com/user-attachments/assets/949fa3e1-e461-4072-bd3d-4fd72a40b6e4)
+
+In this picture, I was testing the electronics before putting it into the housing. 
+![A1435004-4BC0-4EA3-A9E6-793953653D20](https://github.com/user-attachments/assets/3b61ac41-8a90-4449-a01e-6b593fce1b32)
+
+## The Design Process - Final Prototype
+
+https://github.com/user-attachments/assets/8c6f6f7f-f0eb-4bbb-b5f5-a45b33dbd92d
+
 
 # The Unfortunate Tales of Edwun Lim
 
