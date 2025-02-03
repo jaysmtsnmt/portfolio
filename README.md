@@ -12,13 +12,25 @@ But now that I am older, I realise the importance of fueling and keeping this pa
 # Overview of my Projects
 Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials. 
 
-## Projects showcasing mostly computing & logic:  
-[CT-02](https://github.com/jaysmtsnmt/portfolio/edit/main/README.md#ct-02) #Python #C++  
+### Computing & Logic Projects
+[CT-02](#ct-02) #Python #C++  
 
 - A companion robot that uses 2D/3D word vectors for natural language processing, as well as opencv & serial modules for face tracking.
+- Project started in late 2022
 
-[The Unfortunate Tales of Edwun Lim](https://github.com/jaysmtsnmt/portfolio/edit/main/README.md#the-unfortunate-tales-of-edwun-lim) #Scratch #Pixel Art 
+[DSTA Young Defense Scientists Programme Submission](#dsta-ydsp-camp-submission) #Python #Drone
 
+- Best Obstacle Avoidance Award
+- Only one of two teams that were able to navigate out of the maze. (VS & VJC)
+- Competition code completetly written from scratch.
+
+[The Unfortunate Tales of Edwun Lim](#the-unfortunate-tales-of-edwun-lim) #Scratch #Pixel Art 
+
+- A scratch-based escape room game complete with playable rooms, functioning UI, 2D top-down movement & custom game items.
+- Over 50+ hours of time taken to develop
+- Submitted for my Y4 Chemistry GA
+
+### Engineering & Design Projects
 
 # CT-02
 
@@ -1066,6 +1078,15 @@ void blink(int x = blinktime, int b = brightness){ //Pass x as mils closed / Bli
 }
 ```
 </details>
+
+# DSTA YDSP Camp Submission
+The task of the YDSP Camp competition was to program a Tello Drone that could sucessfully map & autonomously navigate an unknown 5 by 5 maze. 
+
+This code had a few features that allowed us to win:
+1. Obstacle Avoidance & Repositioning
+2. Print statements that allowed me to monitor the drone without looking at it
+3. North Priority (Always prioritise going towards the direction of the exit)
+![20231201-243](https://github.com/user-attachments/assets/483d4ef1-4db4-4517-a4da-880e0edc322d)
 
 # The Unfortunate Tales of Edwun Lim
 
