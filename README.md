@@ -28,14 +28,26 @@ Most of my projects are a mix of hardware & computing, using C++ to code for Ard
 
 - A scratch-based escape room game complete with playable rooms, functioning UI, 2D top-down movement & custom game items.
 - Over 50+ hours of time taken to develop
-- Submitted for my Y4 Chemistry GA
+- Submitted for my Y4 Chemistry GA (96% Grade)
 
 ## Engineering & Design Projects
-[Modular Fogponics Greenhouse | MakeIT Submission 2020]() #Design #3D Printing #Lasercutting #Electronics
+[Modular Fogponics Greenhouse | MakeIT Submission 2020](#modular-fogponics-greenhouse) #Design #3D Printing #Lasercutting #Electronics
+
+- MakeIT Communication Award
+- A working modular greenhouse prototype consisting of a CPU & Greenhouse module.
+- Made using acrylic & 3D printed materials
 
 [Scale Cardboard RC Mariokart | English GA Submission 2023]() #Mechanical Engineering #Cardboard #R.C.
 
+- A working scale radio-controlled model Mariokart, made completely out of cardboard.
+- Fully designed from scratch with custom servo steering mechanism.
+- Submitted for my Y4 English GA
+
 [RC Planes | Switzerland 2017 - 2020]() #Mechanical Engineering #Foamboard #R.C.
+
+- Developed an interest in Aerodynamics & planes
+- Trained myself using simulators to fly RC planes
+- Built 2 foamboard planes & flew one very regularly
 
 [Lightweight RC Plane | SAFMC Submission 2023]() #Mechanical Engineering #R.C.
 
@@ -1113,6 +1125,8 @@ void blink(int x = blinktime, int b = brightness){ //Pass x as mils closed / Bli
 ```
 </details>
 
+______________
+
 # DSTA YDSP Camp Submission
 The task of the YDSP Camp competition was to program a Tello Drone that could sucessfully map & autonomously navigate an unknown 5 by 5 maze. Using the matplotlib library that was taught to us, we had successfully mapped a correct route through the maze. 
 
@@ -1419,14 +1433,25 @@ _______________________
 
 The full GitHub Archive is available here: https://github.com/jaysmtsnmt/DSTA-YDSP/tree/main/Phase%201 
 
+________________
+  
 # Modular Fogponics Greenhouse
 Designed & submitted for the 2022 MakeIT Design Competition, winning the communication award. I had made this to align with the 30 by 30 Singapore Food Goals, to help increase self-sustainability in Singapore.  
   
-This modular greenhouse works using Fogponics, which uses an ultrasonic transducer to create water vapour containing nutrients, which water the plants in the greenhouse! This saves a lot more water, and the supply of nutrients can be easily controlled using a microcontroller (arduino).  
+This modular greenhouse works using Fogponics, which uses an ultrasonic transducer to create water vapour containing nutrients, which water the plants in the greenhouse!   
+>Firstly, This saves a lot more water, and the supply of nutrients can be easily >controlled using a microcontroller (arduino).
+  
+>Secondly, the prototype's modular snap-on design allows for more greenhouse modules to be connected if needed, while only requiring 1 CPU module. (Modules can be added on any side, and are magnetically coupled.) 
 
 ![a97ce2a9-e9e5-46d1-ac44-b38ad78fde42](https://github.com/user-attachments/assets/d63061a2-9474-4e42-af09-a0e9ef371715)
+![f26ad2c0-8c64-4029-a8db-08730203ce7d](https://github.com/user-attachments/assets/5aa47d2d-ee8e-491c-86bd-5969751b7f42)
 
 The body of the greenhouse is 0.5 thickness acrylic, while the pots were made out of both acrylic & plastic (3D printed)
+
+## The Design Process
+
+<details>
+<summary>The Design Process</summary>
 
 ## The Design Process - Design on CAD software
 With a vision in mind, I designed the entire greenhouse on tinkercad.  
@@ -1451,16 +1476,141 @@ With a vision in mind, I designed the entire greenhouse on tinkercad.
 ![image](https://github.com/user-attachments/assets/c3df55b5-c87c-4a0b-b921-ad43b5a8d2a5)
 
 ## The Design Process - Testing
-In this picture, my laptop was connected to an Arduino Uno, which controlled the ultrasonic transducer module. 
+In this picture, my laptop was connected to an Arduino Uno, which controlled the ultrasonic transducer module.  
+  
 ![image](https://github.com/user-attachments/assets/949fa3e1-e461-4072-bd3d-4fd72a40b6e4)
 
 In this picture, I was testing the electronics before putting it into the housing. 
+  
 ![A1435004-4BC0-4EA3-A9E6-793953653D20](https://github.com/user-attachments/assets/3b61ac41-8a90-4449-a01e-6b593fce1b32)
 
 ## The Design Process - Final Prototype
 
 https://github.com/user-attachments/assets/8c6f6f7f-f0eb-4bbb-b5f5-a45b33dbd92d
 
+![1838922d-4881-402f-bbb6-560bbd881e1b](https://github.com/user-attachments/assets/33adadbd-a34f-49c3-bf73-5572b3fa33ba)
+
+![9fa2ccf9-adb2-469d-a8be-004a12a4342b](https://github.com/user-attachments/assets/75f382bb-fa14-41e5-a4bc-d6fd2e918565)
+
+_________________________   
+</details>
+
+## Presentation (Pictures & PDF)
+
+![c162a552-5b7b-4f88-a7dd-1a3908d6be8d](https://github.com/user-attachments/assets/d74f2cbb-9632-4e76-92a9-c98215bbf382)
+
+[MakeIT Presentation.pdf](https://github.com/user-attachments/files/18656936/MakeIT.Presentation.pdf)
+
+________________
+
+# Scale RC Mariokart
+
+For my English GA, our group had choosen **"gaming culture"** as our topic. We had to make an artefact for submission, in which I decided to make a scale RC mariokart, completely from handcut cardboard. I have lost the photo of the fully painted mariokart, but here are some photos and videos showcasing its design.
+
+![image](https://github.com/user-attachments/assets/4c368ba4-df8c-40ec-92e9-934b53d57b8b)
+
+https://github.com/user-attachments/assets/74b200c9-f780-4183-b2ef-f2ff7dba15be
+
+![IMG-20240619-WA0008](https://github.com/user-attachments/assets/b67ef3ef-55a0-4a48-b54e-8e6c10a2fecf)
+
+## The Design Process
+There were several steps in the entire process:
+<details>
+   <summary>Scaling, Designing & Sketching</summary>
+
+   ## Scaling, Designing & Sketching
+### Scaling
+First, I downloaded a .obj file (3D CAD file) of a mariokart, allowing me to trace it on paper from different angles & get a rough idea of the design.   
+   
+![IMG-20240619-WA0003](https://github.com/user-attachments/assets/3f0d4ab8-d23f-41c4-8983-16c75c47b10d)
+
+![IMG_4648](https://github.com/user-attachments/assets/8a32b43a-67de-43f4-bc74-ce3457a08f09)
+
+![IMG_4644](https://github.com/user-attachments/assets/261d317c-5eb8-4fa7-a1d6-a19a216c43a8)
+  
+Eventually, I settled on a ~10:2.1 scale! (not exact because i changed it after) 
+
+### Designing
+Next, I started sketching the full dimensions & map of the mariokart, & splitting the cardboard into different sections for easy assembly. 
+
+**One of the problems that I had to solve was the steering system.** The steering system had to be controlled by a single servo, which was connected to a flysky reciever (originally meant for RC planes). To turn a horizontal force into a turning force was not easy, but eventually I settled on this design, which uses stripped & bent metal wires.
+
+https://github.com/user-attachments/assets/266d1524-fe11-48cc-a4b8-5ee5e26574e6
+
+### Sketching
+
+![IMG_4642](https://github.com/user-attachments/assets/a90158f4-747d-43e5-88ad-0008719ad37b)
+
+![IMG_4645](https://github.com/user-attachments/assets/0c3ec660-6dc0-4db4-82d1-e444077a2526)
+   
+___________
+</details>
+
+<details>
+   <summary>Experimentation & Finalisation</summary>
+   
+## Experimentation & Finalisation 
+I originally wanted to use a plane brushless motor for driving the mariokart, but it did not have enough torque.  
+  
+![image](https://github.com/user-attachments/assets/8e478d4b-22b1-4216-aeab-10954b48a4c5)
+
+![image](https://github.com/user-attachments/assets/a7cd52ba-01df-4d98-a8ed-e5bb7a3e1726)
+
+In the end, I had to redesign & rescale the entire mariokart again, as I had to adjust to the normal DC motor specifications. (the wheel was too big)
+_______________
+</details>
+
+<details>
+<summary>Cutting & Assembling</summary>
+
+## Cutting & Assembling
+
+### Cutting the main body
+
+https://github.com/user-attachments/assets/9c623c87-6799-4106-8076-d77ed785f0d3
+
+### Cutting the Wheels
+
+https://github.com/user-attachments/assets/6c4b45a8-a5a5-486d-8ac3-06c7f9b60925
+
+### Assembling
+https://github.com/user-attachments/assets/c6c31703-b31d-44ec-b559-05a21e1f388f
+
+![image](https://github.com/user-attachments/assets/5dc220a1-74dd-4989-8779-9bfe594b89a8)
+
+![IMG-20240619-WA0007](https://github.com/user-attachments/assets/ddc29e28-dffb-44e5-a55e-d04828c72360)
+_____________________
+</details>
+<details>
+<summary>Electronics & Further Assembling</summary>
+   
+## Electronics & Further Assembling
+
+https://github.com/user-attachments/assets/4cc6d622-1827-4325-a7c3-7973325f0bc8
+
+![image](https://github.com/user-attachments/assets/e7fb30c2-321e-4ab9-b6ed-90aa02d3d101)
+__________________
+</details>
+<details>
+<summary>Testing & Painting</summary>
+   ## Testing & Painting
+Video of me testing the steering capability of the mariokart!
+
+https://github.com/user-attachments/assets/74b200c9-f780-4183-b2ef-f2ff7dba15be
+
+Picture of my group painting while I add the last touches of cardboard...
+
+![image](https://github.com/user-attachments/assets/32063fdd-b7f7-4e9a-8496-88d98b8b93d7)
+___________
+</details>
+_______________
 
 # The Unfortunate Tales of Edwun Lim
+A fully playable scratch game with custom drawn pixel art items. Very overkill for my chemistry GA!  (96% grade was worth it)
+
+![image](https://github.com/user-attachments/assets/c5a2106a-c2a5-46fd-93a2-1526afb9d5b9)
+
+You may view the code or explore the project here:
+https://scratch.mit.edu/projects/1048277997/ 
+
 
