@@ -37,7 +37,7 @@ Most of my projects are a mix of hardware & computing, using C++ to code for Ard
 - A working modular greenhouse prototype consisting of a CPU & Greenhouse module.
 - Made using acrylic & 3D printed materials
 
-[Scale Cardboard RC Mariokart | English GA Submission 2023]() #Mechanical Engineering #Cardboard #R.C.
+[Scale Cardboard RC Mariokart | English GA Submission 2023](#scale-rc-mariokart) #Mechanical Engineering #Cardboard #R.C.
 
 - A working scale radio-controlled model Mariokart, made completely out of cardboard.
 - Fully designed from scratch with custom servo steering mechanism.
