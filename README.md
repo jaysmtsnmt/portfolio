@@ -10,7 +10,9 @@ But now that I am older, I realise the importance of fueling and keeping this pa
 **Hence, my reason for applying for the Computing course in VJC** is to further develop my skills in this area, be it coding, building or designing, and to <ins>further give me the space & time to grow this passion</ins>.
 
 # Overview of my Projects
-Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials. 
+Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials.  
+
+Some of my projects can be viewed from GitHub directly, & I have linked them in my project sections directly.  
 
 ## Computing & Logic Projects
 [CT-02 Companion Robot | 2022 - Current](#ct-02) #Python #C++  
