@@ -24,7 +24,7 @@ Most of my projects are a mix of hardware & computing, using C++ to code for Ard
 - Only one of two teams that were able to navigate out of the maze. (VS & VJC)
 - Competition code completetly written from scratch.
 
-[Ticket Sales Tracker | Currently in use for Concert Clarus 2.0](#dsta-ydsp-camp-submission) #python
+[Ticket Sales Tracker | Currently in use for Concert Clarus 2.0](#concert-clarus-ticket-counter) #python
 
 - Needed to calculate & sort the number of tickets sold for Concert Clarus 2.0 per day.
 - Script reads the excel file, and prints a complete summary as well as history of sales.
