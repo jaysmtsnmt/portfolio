@@ -20,6 +20,10 @@ Some of my projects can be viewed from GitHub directly, & I have linked them in 
 - A companion robot that uses 2D/3D word vectors for natural language processing, as well as opencv & serial modules for face tracking.
 - Project started in late 2022
 
+[LaBot | 2025 - Current](#private) #Python #Flask
+
+- A Telegram bot that uses selenium, requests and Google API to integrate the school calendar into Google Calendar.
+
 [Autonomous Drone Maze Navigation Code | DSTA YDSP Camp Submission 2023](#dsta-ydsp-camp-submission) #Python #Drone
 
 - Best Obstacle Avoidance Award
