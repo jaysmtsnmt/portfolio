@@ -23,6 +23,7 @@ Some of my projects can be viewed from GitHub directly, & I have linked them in 
 [LaBot | 2025 - Current](#private) #Python #Flask
 
 - A Telegram bot that uses selenium, requests and Google API to integrate the school calendar into Google Calendar.
+- https://github.com/jaysmtsnmt/TeleBear
 
 [Autonomous Drone Maze Navigation Code | DSTA YDSP Camp Submission 2023](#dsta-ydsp-camp-submission) #Python #Drone
 
