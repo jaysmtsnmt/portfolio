@@ -50,6 +50,11 @@ Some of my projects can be viewed from GitHub directly, & I have linked them in 
 - A working modular greenhouse prototype consisting of a CPU & Greenhouse module.
 - Made using acrylic & 3D printed materials
 
+[Flipa | Currently in Development for Personal Use](#flipa)
+
+- A Minimalist and functional wallet designed using Fusion 360 and 3D Printing.
+- Able to store 3 cards, with modular design for customisation.  
+
 [Scale Cardboard RC Mariokart | English GA Submission 2023](#scale-rc-mariokart) #Mechanical Engineering #Cardboard #R.C.
 
 - A working scale radio-controlled model Mariokart, made completely out of cardboard.
