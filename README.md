@@ -44,16 +44,23 @@ Some of my projects can be viewed from GitHub directly, & I have linked them in 
 - Submitted for my Y4 Chemistry GA (96% Grade)
 
 ## Engineering & Design Projects
+[ModAero V1 | EIC Submission 2025 | Currently in Development](#modular-fogponics-greenhouse) #Fusion 360 #Electronics #Design
+
+- Finalist Prototype
+- A Refined and newer version of Modular Fogponics Greenhouse (2020)
+- Completely self-designed using Fusion 360.
+- Capable of Modular Water Delivery, Full Electronic & Magnetic Modularity
+
 [Modular Fogponics Greenhouse | MakeIT Submission 2020](#modular-fogponics-greenhouse) #Design #3D Printing #Lasercutting #Electronics
 
 - MakeIT Communication Award
 - A working modular greenhouse prototype consisting of a CPU & Greenhouse module.
 - Made using acrylic & 3D printed materials
 
-[Flipa | Currently in Development for Personal Use](#flipa)
+[Flip V3 | Currently in Development for Personal Use](#flip-v3) #Fusion 360
 
 - A Minimalist and functional wallet designed using Fusion 360 and 3D Printing.
-- Able to store 3 cards, with modular design for customisation.  
+- Able to store 3-5 cards, with modular design for customisation.  
 
 [Scale Cardboard RC Mariokart | English GA Submission 2023](#scale-rc-mariokart) #Mechanical Engineering #Cardboard #R.C.
 
