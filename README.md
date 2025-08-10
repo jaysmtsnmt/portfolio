@@ -1,13 +1,23 @@
 # Self Introduction
-Hello! I am Jayden Soh, a Year 5 student studying in VJC. 👋
+Hello! I am Jayden Soh, a Year 5 student studying in VJC.
 
-My <ins> passion for engineering started when I was young </ins>, when my father bought an electronics kit for beginners, consisting of a simple Arduino Uno, with basic components such as LEDs 🚨, LCDs & Buttons 🔘. I had just moved to Switzerland then (as my father got a job there), where the <ins>IB curriculum had given me space & time to explore more into that area.</ins> One of my first projects was a very simple door alarm system 🔔, where I had used a button, chopsticks and string to detect the opening of a door! Then, as I gained more experience, <ins>I learnt how to code- in C++ & Python</ins>, which unlocked an entire realm of new possibilities. 
+My passion for engineering started when I was young, when my father bought me an electronics kit for beginners, consisting of a simple Arduino Uno and basic components. In addition, my family had relocated to Switzerland (father's job), where I attended International School. This gave me the time and space to start developing my interest for design. 
 
-**In Secondary School** (back in Singapore), <ins>I also started to explore leadership</ins>, where I served as a class monitor, peer support leader and on the Prefects' Council Executive Comittee. But outside of all that, the thing I still enjoyed the most was engineering 🛠️. During the holidays (when I had the motivation), I would restart my personal projects- to draw ✏️, tinker 🔨, build and code 💻. Most of my projects started from my imagination, for example- <ins>my companion robot CT-02</ins>, where I really really wanted to recreate Jarvis. (obviously didnt work to that extent), while some are for school competitions, for example- the <ins>Modular Fogponics Greenhouse</ins>. Some of the projects which I worked the hardest on were for school assignments, such as the RC cardboard mariokart. 🚗
+When I moved back for Secondary School & attended Victoria School, I started to explore leadership, where I served as a class monitor, peer support leader, as well as on the Prefects' Council Executive Committee. Furthermore, I had joined a volunteer student-led organisation, Project Hope, where I served in the core team as the Head of Publicity, and contributed more than 300 VIA hours. Collectively, in 1 year, we raised more than $14k for Make-A-Wish Singapore. 
 
-But now that I am older, I realise the importance of fueling and keeping this passion, as it will be a great asset for my future. I do not want to lose these skills, and I recognise that the priorities that I set in my JC life will play a crucial role in the development of my engineering passion. 
+However, outside of that, I still actively continue persuing my engineering hobby through my personal projects and competitions. 
 
-**Hence, my reason for applying for the Computing course in VJC** is to further develop my skills in this area, be it coding, building or designing, and to <ins>further give me the space & time to grow this passion</ins>.
+# My Skills & Experience
+### Computing:
+- Fluent in Python & C++ 
+- Python (Wide range of experience - OpenCV, Tensorflow, Natural Language Processing, UI/UX Design, Flask etc..)
+- C++ (More hardware/project specific - Arduino C++, working with ESP-32 libaries and GPIO control)
+
+### Design, Mechanical & Electrical Engineering:
+- Fusion 360 (Prototyping & Design for 3D printing)
+- 3D Printing & prototyping using PLA (Bambu Lab A1)
+- Electronics Soldering & Breadboarding
+- Electrical Pinout Diagrams + Design
 
 # Overview of my Projects
 Most of my projects are a mix of hardware & computing, using C++ to code for Arduino, and Python to code for software/processing. My projects often start with me building the hardware, then coding the software, as I prefer working with physical materials.  
@@ -15,14 +25,15 @@ Most of my projects are a mix of hardware & computing, using C++ to code for Ard
 Some of my projects can be viewed from GitHub directly, & I have linked them in my project sections directly.  
 
 ## Computing & Logic Projects
-[CT-02 Companion Robot | 2022 - Current](#ct-02) #Python #C++  
+[CT-02 Companion Robot | 2022 - Current](#ct-02) #Python #C++ 
 
 - A companion robot that uses 2D/3D word vectors for natural language processing, as well as opencv & serial modules for face tracking.
 - Project started in late 2022
+- Largely a mix of electrical, hardware engineering and computing. 
 
 [LaBot | 2025 - Current](#private) #Python #Flask
 
-- A Telegram bot that uses selenium, requests and Google API to integrate the school calendar into Google Calendar.
+- A Telegram bot that uses selenium, requests and Google API to integrate the school calendar from the school portal into Google Calendar.
 - https://github.com/jaysmtsnmt/TeleBear
 
 [Autonomous Drone Maze Navigation Code | DSTA YDSP Camp Submission 2023](#dsta-ydsp-camp-submission) #Python #Drone
@@ -44,7 +55,7 @@ Some of my projects can be viewed from GitHub directly, & I have linked them in 
 - Submitted for my Y4 Chemistry GA (96% Grade)
 
 ## Engineering & Design Projects
-[ModAero V1 | EIC Submission 2025 | Currently in Development](#modular-fogponics-greenhouse) #Fusion 360 #Electronics #Design
+[ModAero V1 | EIC Submission 2025 | Currently in Development](#modaero) #Fusion 360 #Electronics #Design
 
 - Finalist Prototype
 - A Refined and newer version of Modular Fogponics Greenhouse (2020)
@@ -1149,6 +1160,11 @@ void blink(int x = blinktime, int b = brightness){ //Pass x as mils closed / Bli
 }
 ```
 </details>
+
+______________
+
+# ModAero
+My aim for 2025 was to enter the Engineering Innovation Challenge using the same idea of Modular Fogponics, and win this competition. And this result was achieved. 
 
 ______________
 
