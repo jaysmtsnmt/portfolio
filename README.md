@@ -1166,6 +1166,9 @@ ______________
 # ModAero
 My aim for 2025 was to enter the Engineering Innovation Challenge using the same idea of Modular Fogponics, and win this competition. And this result was achieved. 
 
+View the presentation slides here: 
+https://www.canva.com/design/DAGtV4aQ8_8/89LMrIB7xm2_VL1-_FGNYg/edit?utm_content=DAGtV4aQ8_8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+
 ______________
 
 # DSTA YDSP Camp Submission
